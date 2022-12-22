@@ -15,7 +15,10 @@
 <body>
 
   <a class="musicstart" href="#">
-    <video class="video" autoplay loop muted src="/img/video.mp4"></video>
+    <video class="video" autoplay loop muted>
+      <source src="./img/video.webm" type="video/webm">
+      <source src="./img/video.mp4" type="video/mp4">
+    </video>
     <audio class="music" preload="auto" loop="loop">
       <source src="img/Olbass All Bass 004 (140 BPM).mp3" controls="" autobuffer="" />
     </audio>
